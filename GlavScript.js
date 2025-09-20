@@ -383,8 +383,51 @@ ar_tp=
             ],
             [
              
+
+             
             ]
             
+
+        ],
+        [
+            
+            [
+                [],[],
+                [
+                    'Рисование'
+                    ,'Лепка скульптур'
+                    ,'Созданее из метала'
+                    ,'Резьба по дереву'
+                    ,'Вязание'
+                    ,'Воляние'
+                    ,'Шитьё'
+                    ,'Вышивка'
+                    ,'Плетение'
+                    ,'Литература'
+                    ,'Музыка'
+                    ,'Программирование'
+                    ,'Электроника'
+                ]
+            ],[
+                [
+                    
+                    'Рисование'
+                    ,'Вязание крючком'
+                    ,'Вязание спицами'
+                    ,'Воляние из шерсти'
+                    ,'Вышивка'
+                    ,'Резьба по дереву'
+                    ,'Лепка скульптур'
+                    ,'Лепка из Папье-маше'
+                    ,'Плетение из бумажной лозы'
+                    ,'Плетение в технике фливоите'
+                    ,'Бисероплетение'
+                    
+                    
+                    
+
+                ]
+            ]
 
         ]
         
@@ -427,6 +470,19 @@ ar_tp_up=
             ]
         ]
 
+    ],
+    [
+        [
+            [],[],
+            [
+                0,0,0,0,0,0,0,0,0,0
+            ]
+
+        ],[
+            [
+                0,0,0,0,0,0,0,0,0,0,0
+            ]
+        ]
     ]
 ];
 //=================================================================================================
@@ -939,27 +995,27 @@ array_text =
         [//Обучение
             [//Обучение от умельцев
                 [//Обучающие уроки по мере поступления
-                    '<p>Здесь видны толь загаловок с кратким описанием и автор. Если захотите увидеть полностью занятие, то нажмите на его оглавление.<p> ' +
-                    '<p><table id="tt"class="yrok_ymelca"><tr><td class="yrok"><big><i>Вязание спицами.</big></i><p>Текстовый формат.<p>Урок 1 <i><b>"Название урока".</b><p>Краткое описание занятия.</i></td><td style="background:#901010"></td><td align="center"><img src="ym_1_fotos_1.jpg" class="foto_ymelca_min"><p><b>Ильина (Ковалёва) Людмила</b></td></tr></table>'+
+                    '<p>Здесь видны толь загаловок с кратким описанием и автор. Если захотите увидеть полностью занятие, то нажмите на его оглавление.<p> ' 
+                    /*'<p><table id="tt"class="yrok_ymelca"><tr><td class="yrok"><big><i>Вязание спицами.</big></i><p>Текстовый формат.<p>Урок 1 <i><b>"Название урока".</b><p>Краткое описание занятия.</i></td><td style="background:#901010"></td><td align="center"><img src="ym_1_fotos_1.jpg" class="foto_ymelca_min"><p><b>Ильина (Ковалёва) Людмила</b></td></tr></table>'+
                     '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>' +
                     '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>' +
                     '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>' +
                     '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>' +
                     '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>' +
                     '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>' +
-                    '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>'
+                    '<div class="yrok_ymelca"><table><tr><td> <big><b>Заголовок занятия</b></big> <p>Краткое описание урока с указанием его направления в творчестве</td><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td></tr></table></div><p>'*/
                 ],
                 [//Обучение от конкретного мастера
-                    '<p>Выберите нужного Вам мастера:<p>' +
+                    '<p>Выберите нужного Вам мастера:<p>' /*
                     '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>' +
                     '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>' +
                     '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>' +
                     '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>' +
                     '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>'
-
+*/
                 ],
                 [//Обучение по категориям творчества
-                    '<p>Выберите категорию творчества, по которой Вы хотели бы получить обучение от наших умельцев:<p>' +
+                    '<p>Выберите категорию творчества, по которой Вы хотели бы получить обучение от наших умельцев:<p>' /*
                     '<ul><li><div id="tp_0_3_1_0"class="paragraf"onmousedown="on_tp_0_3_1(0)"onmouseover="on_tp(1,0,3,1,0)"onmouseout="on_tp(2,0,3,1,0)">Рисование</div></li><p>' +
                     '<li><div id="tp_0_3_1_1"class="paragraf"onmousedown="on_tp_0_3_1(1)"onmouseover="on_tp(1,0,3,1,1)"onmouseout="on_tp(2,0,3,1,1)">Лепка скульптур</div></li><p>' +
                     '<li><div id="tp_0_3_1_2"class="paragraf"onmousedown="on_tp_0_3_1(2)"onmouseover="on_tp(1,0,3,1,2)"onmouseout="on_tp(2,0,3,1,2)">Резьба по дереву</div></li><p>' +
@@ -970,11 +1026,11 @@ array_text =
                     '<li><div id="tp_0_3_1_6"class="paragraf"onmousedown="on_tp_0_3_1(6)"onmouseover="on_tp(1,0,3,1,6)"onmouseout="on_tp(2,0,3,1,6)">Литература</div></li><p>' +
                     '<li><div id="tp_0_3_1_7"class="paragraf"onmousedown="on_tp_0_3_1(7)"onmouseover="on_tp(1,0,3,1,7)"onmouseout="on_tp(2,0,3,1,7)">Программирование</div></li><p>' +
                     '<li><div id="tp_0_3_1_8"class="paragraf"onmousedown="on_tp_0_3_1(8)"onmouseover="on_tp(1,0,3,1,8)"onmouseout="on_tp(2,0,3,1,8)">Электроника</div></li><p>' +
-                    '</ul>'
+                    '</ul>'*/
                 ],
                 [//Обучающие схемы от умельцев
-                    '<p>Схемы могут совпадать или принадлежать другим, неисзестным, авторам. Вы должны понимать, что всё попавшее в Internet становится достоянием общества. Здесь указывается человек, который выложил материал, для общего обозрения<p>' +
-                    '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>'
+                    '<p>Схемы могут совпадать или принадлежать другим, неисзестным, авторам. Вы должны понимать, что всё попавшее в Internet становится достоянием общества. Здесь указывается человек, который выложил материал, для общего обозрения<p>' 
+                    //  '<div class="izobr"><table><tr><td align="center"width="30%"><img class="foto_ymelca_min" src="ym_1_fotos_1.jpg"><div id="name_ymelca"><big><b>Ильина (Ковалёва) Людмила.</b></big></div></td><td> Перечисления направления занятий.</td></tr></table></div><p>'
                 ],
                 [//Особенности данного обучения
                     '<p> '
@@ -982,7 +1038,8 @@ array_text =
             ],
             [//Творчество
                 [//Все, освоенные мною, виды 
-                    '<p>Я собрала здесь все, освоенные мною, виды творчества, не включая программирования и электроники. Выберите подходящий Вам раздел:<p>' +
+                    '<p>Я собрала здесь все, освоенные мною, виды творчества, не включая программирования и электроники. Выберите подходящий Вам раздел:<p>' 
+                    /*
                     '<ul><li><div id="tp_0_3_1_0"class="paragraf"onmousedown="on_tp_0_3_1(0)"onmouseover="on_tp(1,0,3,1,0)"onmouseout="on_tp(2,0,3,1,0)">Рисование</div></li><p>' +
                     '<li><div id="tp_0_3_1_1"class="paragraf"onmousedown="on_tp_0_3_1(1)"onmouseover="on_tp(1,0,3,1,1)"onmouseout="on_tp(2,0,3,1,1)">Лепка из глины</div></li><p>' +
                     '<li><div id="tp_0_3_1_4"class="paragraf"onmousedown="on_tp_0_3_1(4)"onmouseover="on_tp(1,0,3,1,4)"onmouseout="on_tp(2,0,3,1,4)">Лепка из Папье-маше</div></li><p>' +
@@ -996,10 +1053,10 @@ array_text =
                     '<li><div id="tp_0_3_1_3"class="paragraf"onmousedown="on_tp_0_3_1(3)"onmouseover="on_tp(1,0,3,1,3)"onmouseout="on_tp(2,0,3,1,3)">Вышивка</div></li><p>' +
                     '<li><div id="tp_0_3_1_4"class="paragraf"onmousedown="on_tp_0_3_1(4)"onmouseover="on_tp(1,0,3,1,4)"onmouseout="on_tp(2,0,3,1,4)">Шитьё</div></li><p>' +
                     '</ul>' +
+*/
 
 
-
-                    '<p>Многие виды творчества изучались мною по книгам, приведенным в подразделе "Используемая литература". Я заказывала большинство из них на "Ozon"'
+                    ,'<p>Многие виды творчества изучались мною по книгам, приведенным в подразделе "Используемая литература". Я заказывала большинство из них на "Ozon"'
                 ],
                 [//Необходимое для занятий
                 ],
@@ -1013,7 +1070,9 @@ array_text =
                 ],
             ],
             [//Программирование
-                [//Всё, что я знаю из программирования
+                [//Всё, что я знаю из информатики
+                    'Изучаю информатику со школьной скамьи. Первой игрушкой запрограммированной мной на Basic стал лаберинт. Сейчас уже знаю много языков программирования и хочу поделиться своими знаниями с окружающими.'
+                    
 
                 ],
                 [//Основные понятия языка
@@ -1573,16 +1632,17 @@ function text_str() {
             case 1://обучение от умельцев
                 switch(np-0){
                         case 0:
-                            str_text+=array_text[1][0][0][0];
+                            str_text+=array_text[1][0][0][0]+tym_yrok_telo(0,0);
                             break;
                             case 1:
-                            str_text+=array_text[1][0][1][0];
+                                
+                            str_text+=array_text[1][0][1][0] +tym_yroki_mast_telo(0)+'<p>'+tym_yroki_mast_telo(0);
                             break;
                             case 2:
-                            str_text+=array_text[1][0][2][0];
+                            str_text+=array_text[1][0][2][0]+tp_t(0,10);
                             break;
                             case 3:
-                            str_text+=array_text[1][0][3][0];
+                            str_text+=array_text[1][0][3][0]+tym_pik_telo(0,0)+'<p>'+tym_pik_telo(0,1);
                             break;
                             case 4:
                             str_text+=array_text[1][0][4][0];
@@ -1592,7 +1652,7 @@ function text_str() {
                     case 2://творчество
                 switch(np-0){
                         case 0:
-                            str_text+=array_text[1][1][0][0];
+                            str_text+=array_text[1][1][0][0]+tp_t(0,11)+array_text[1][1][0][1];
                             break;
                             case 1:
                             str_text+=array_text[1][1][1][0];
@@ -1702,19 +1762,19 @@ function on_tp_t(nomer_pt){
                                 
                                     switch(nomer_pt){
 
-                                        case 0:pp='<dd>'+array_text[0][2][0][0][0]+'</dd>'+tp_t(5,7);  break;
-                                        case 1:pp='<dd>'+array_text[0][2][0][0][1]+'</dd>'+tp_t(7,9);  break;
-                                        case 2:pp='<dd>'+array_text[0][2][0][0][3]+'</dd>'+ts_intt(2);  break;
-                                        case 3:pp='<dd>'+array_text[0][2][0][0][4]+'</dd>'+tp_t(9,10);  break;
-                                        case 4:pp='<dd>'+array_text[0][2][0][0][5]+'</dd>'+tp_t(10,13);  break;
-                                        case 5:pp='<dd>'+array_text[0][2][0][0][2]+'</dd>'+tizd(0);  break;
-                                        case 6:pp='<dd>'+array_text[0][2][0][0][6]+'</dd>';  break;
-                                        case 7:pp='<dd>'+array_text[0][2][0][0][7]+'</dd>';  break;
-                                        case 8:pp='<dd>'+array_text[0][2][0][0][8]+'</dd>';  break;
-                                        case 9:pp='<dd>'+array_text[0][2][0][0][9]+'</dd>';  break;
-                                        case 10:pp='<dd>'+array_text[0][2][0][0][6]+'</dd>';  break;
-                                        case 11:pp='<dd>'+array_text[0][2][0][0][6]+'</dd>';  break;
-                                        case 12:pp='<dd>'+array_text[0][2][0][0][6]+'</dd>';  break;
+                                        case 0:pp='<dd>'+array_text[0][2][0][0]+'</dd>'+tp_t(5,7);  break;
+                                        case 1:pp='<dd>'+array_text[0][2][0][1]+'</dd>'+tp_t(7,9);  break;
+                                        case 2:pp='<dd>'+array_text[0][2][0][3]+'</dd>'+ts_intt(2);  break;
+                                        case 3:pp='<dd>'+array_text[0][2][0][4]+'</dd>'+tp_t(9,10);  break;
+                                        case 4:pp='<dd>'+array_text[0][2][0][5]+'</dd>'+tp_t(10,13);  break;
+                                        case 5:pp='<dd>'+array_text[0][2][0][2]+'</dd>'+tizd(0);  break;
+                                        case 6:pp='<dd>'+array_text[0][2][0][6]+'</dd>';  break;
+                                        case 7:pp='<dd>'+array_text[0][2][0][7]+'</dd>';  break;
+                                        case 8:pp='<dd>'+array_text[0][2][0][8]+'</dd>';  break;
+                                        case 9:pp='<dd>'+array_text[0][2][0][9]+'</dd>';  break;
+                                        case 10:pp='<dd>'+array_text[0][2][0][6]+'</dd>';  break;
+                                        case 11:pp='<dd>'+array_text[0][2][0][6]+'</dd>';  break;
+                                        case 12:pp='<dd>'+array_text[0][2][0][6]+'</dd>';  break;
                                     }
                                 break;
                                 case 2:
@@ -1862,6 +1922,9 @@ function ts_intt(nomer_ts_up){ s_pp='';for(rit=0;rit<nomer_ts_up;rit++) s_pp+=ts
 function Sait_load() {
     bob.style.background = '#306090';
     bob.style.overflowX = 'hidden';
+    metka_chet=0;
+    interes_chet=0;
+
     form_text_aktiv=false;
     form_shetchik=0;
     form_text_palka='|';
@@ -1939,11 +2002,11 @@ dat=new Date();
         localStorage.setItem('nr', 1);//nomer_razdela_v_menu (r_p)
     if (localStorage.getItem('np')) { } else
         localStorage.setItem('np', 0);//nomer_punkta_v_razdele (n_r)
-//    if(localStorage.getItem('np_1')){}else
+    if(localStorage.getItem('np_1')){}else
     localStorage.setItem('np_1',0);//nomer_paragraf_1_v_punkte
-//    if(localStorage.getItem('np_2')){}else
+    if(localStorage.getItem('np_2')){}else
     localStorage.setItem('np_2',0);//nomer_paragraf_2_v_punkte
-//    if(localStorage.getItem('np_3')){}else
+    if(localStorage.getItem('np_3')){}else
     localStorage.setItem('np_3',0);//nomer_paragraf_3_v_punkte
         localStorage.setItem('nn', 1);//nomer_name
 
@@ -3591,7 +3654,8 @@ function on_form_text_on()
 //=================================================================================================
 //=================================================================================================
 document.addEventListener('mousedown',event=>{
-   //if(event.target.id!='metka_div')if(metka_on)if(metka_div.style.visibility=='hidden')tm_telos(0,nomer_metki_pamyt); 
+   if(metka_on){if(event.target.id!='metka_div'){metka_chet++;if(metka_chet>1)tm_telos(0,nomer_metki_pamyt);}}
+   if(interes_on){if(event.target.id!='interes_div'){interes_chet++;if(interes_chet>1)ti_telos(0,nomer_interesa_pamyt);}}
 });
 //=================================================================================================
 //=================================================================================================
@@ -4233,6 +4297,7 @@ function tm_telos(deistvie_ms,nomer_ms) {
             event.returnValue = false;
             ten_metka.style.visibility=metka_div.style.visibility=metka_treug.style.visibility='hidden';
             metka_on=false;
+            metka_chet=0;
             document.getElementById('tm_'+name_ms+'_telo').innerHTML='<span id="tm_'+name_ms+'" class="metka" onmouseover="on_tm(1,'+nomer_ms+')"onmouseout="on_tm(2,'+nomer_ms+')"onmousedown="tm_telos(1,'+nomer_ms+')">' +ar_tm[nm][nr-1][np][nomer_ms]+'</span>';
         }
     }
@@ -4253,6 +4318,7 @@ function tm_telos(deistvie_ms,nomer_ms) {
         ten_metka.style.height=metka_div.clientHeight+5+'px';
         metka_left=metka_div.style.top.slice(0, metka_div.style.top.length - 2) - 0;
         metka_on=true;
+        metka_chet=0;
         nomer_metki_pamyt=nomer_ms;
         pamyt_metka=nomer_ms;
         ti_telos(0,pamyt_interes);
@@ -4294,6 +4360,7 @@ function ti_telos(deistvie_is,nomer_is) {
         if(interes_on){
             ten_interes.style.visibility=interes_div.style.visibility=interes_treug.style.visibility='hidden';
             interes_on=false;
+            interes_chet=0;
             document.getElementById('ti_'+name_is+'_telo').innerHTML='<span id="ti_'+name_is+'" class="interes" onmouseover="on_ti(1,'+nomer_is+')"onmouseout="on_ti(2,'+nomer_is+')"onmousedown="ti_telos(1,'+nomer_is+')">' +ar_ti[nm][nr-1][np][nomer_is]+'</span>';
             event.returnValue = false;
         }
@@ -4307,13 +4374,16 @@ function ti_telos(deistvie_is,nomer_is) {
             interes_div.style.left='100px';
             interes_div.style.right='100px';
         }
+
         interes_div.style.top=scrollY+event.clientY+20+'px';
         ten_interes.style.top=interes_div.style.top;
         ten_interes.style.left=interes_div.style.left;
         ten_interes.style.width=interes_div.clientWidth+5+'px';
         ten_interes.style.height=interes_div.clientHeight+5+'px';
         interes_left=interes_div.style.top.slice(0, metka_div.style.top.length - 2) - 0;
+        interes_chet=0;
         interes_on=true;
+        nomer_interesa_pamyt=nomer_is;
         pamyt_interes=nomer_is;
         tm_telos(0,pamyt_metka);
     }
